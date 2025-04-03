@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import StackNavigation from './src/navigation/StackNavigation'
 
-const App = () => {
+const CreateTodo = () => {
   return (
-    <StackNavigation />
+    <View>
+      <Text>CreateTodo</Text>
+    </View>
   )
 }
 
-export default App
+export default CreateTodo
 
 const styles = StyleSheet.create({})
